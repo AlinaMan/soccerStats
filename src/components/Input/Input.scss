@@ -1,0 +1,16 @@
+.input-search {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 3px;
+  max-width: 300px;
+  padding: 7px 2px 7px 15px;
+  margin: 12px 0;
+  input {
+    flex: 1;
+    border: none;
+  }
+  img {
+    margin: 0 5px;
+  }
+}

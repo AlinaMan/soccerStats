@@ -1,0 +1,50 @@
+.leagues,
+.teams {
+  &-filters {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+}
+
+.team {
+  &-title {
+    text-align: center;
+    margin-bottom: 20px;
+    img {
+      max-height: 150px;
+    }
+  }
+  &-info {
+    list-style: none;
+    margin-top: 30px;
+    &__wrapper {
+      display: grid;
+      gap: 20px 15px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    li {
+      margin-bottom: 7px;
+    }
+  }
+}
+
+.cell-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  img {
+    max-width: 25px;
+    margin-right: 7px;
+  }
+}
+
+.datepicker-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+  h4 {
+    margin-bottom: 0;
+  }
+}
